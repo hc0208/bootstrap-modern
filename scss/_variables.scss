@@ -1,0 +1,46 @@
+// Web font
+$web-font-en-path: "https://fonts.googleapis.com/css?family=Lato" !default;
+$web-font-ja-path: "https://fonts.googleapis.com/earlyaccess/notosansjp.css" !default;
+
+
+// Color system
+$white: #fff !default;
+$black: #000 !default;
+$primary: #03A9F4;
+$primary-gradient-start: #3D5AFE;
+$primary-gradient-end: #4FC3F7;
+$secondary: #607D8B;
+$secondary-gradient-start: #263238;
+$secondary-gradient-end: #90A4AE;
+$success: #8BC34A;
+$success-gradient-start: #689F38;
+$success-gradient-end: #76FF03;
+$info: #00BCD4;
+$info-gradient-start: #00B8D4;
+$info-gradient-end: #76FF03;
+$warning: #FFC107;
+$warning-gradient-start: #FF8F00;
+$warning-gradient-end: #FFFF00;
+$danger: #F44336;
+$danger-gradient-start: #D50000;
+$danger-gradient-end: #FFD740;
+$dark: #37474F;
+$dark-gradient-start: #263238;
+$dark-gradient-end: #90A4AE;
+$light: transparent;
+
+$theme-colors: () !default;
+$theme-colors: map-merge((
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "dark":       $dark,
+  "light":      $light
+), $theme-colors);
+
+$theme-colors-list: "primary" "secondary" "success" "info" "warning" "danger";
+$theme-gradient-start-colors: $primary-gradient-start $secondary-gradient-start $success-gradient-start $info-gradient-start $warning-gradient-start $danger-gradient-start;
+$theme-gradient-end-colors:   $primary-gradient-end $secondary-gradient-end $success-gradient-end $info-gradient-end $warning-gradient-end $danger-gradient-end;

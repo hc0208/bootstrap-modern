@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap-modern",
+  "version": "4.0.0",
+  "description": "Bootstrap Modern is a theme for Bootstrap.",
+  "author": "Hiroki Chida",
+  "keywords": [
+    "css",
+    "sass",
+    "front-end",
+    "framework",
+    "web"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hc0208/bootstrap-modern.git"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-sass": "^3.1.0",
+    "jquery": ">=1.9.1",
+    "popper.js": "^1.12.9"
+  }
+}
